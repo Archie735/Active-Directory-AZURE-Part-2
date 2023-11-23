@@ -45,3 +45,29 @@ This tutorial is a continuation of the active directory part two. <a href=https:
 - Ok
 
 <img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/a70c4ac0-7b32-481f-b5af-05b88dc7e5f9 alt="Admin user properties">
+
+
+- Log in to one of the admin accounts
+  - Copy Spring's public IP address and paste it on remote desktop
+  - Log into Lilly's account
+   
+          Username: myholiday.com\lilly_admin
+          Password: Whitelilium1
+    
+<img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/8d54113c-090a-4626-914a-3a4aed9907b4 alt="Lilly's admin">
+
+<h2 align="right">2. Join Autumn on the DNS server</h2>
+
+- Retrieve the private IP address of Spring on Azure
+- Go to the Autumn virtual machine and click network settings
+- Network interface
+- DNS servers
+- Paste the Private IP address of Summer
+- Save
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/db2d57af-9f6f-43fa-8649-5e1006308454 alt="Autumn Network Settings">
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/bdcb2629-bb36-4972-af89-ef2cf8b7b117 alt="Autumn DNS server">
+
+
+
