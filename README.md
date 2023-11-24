@@ -69,5 +69,27 @@ This tutorial is a continuation of the active directory part two. <a href=https:
 
 <img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/bdcb2629-bb36-4972-af89-ef2cf8b7b117 alt="Autumn DNS server">
 
+- Go back to the Autumn overview and click on restart
+  (At this point the open Autumn remote desktop will restart and log out)
+
+- Login to remote desktop of Autumn using its public IP address
+- Click on "settings"
+- Search "rename your PC"
+- Domain or workgroup
+- Click domain and enter myholiday.com
+- ok
+
+        Username: myholiday.com\lilly_admin
+        Password: Whitelilium1
+
+  - Click ok then Restart now
+  
+<img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/992dba5e-8602-475f-ae6d-7efbd6454d58 alt="renme Autumn DNS">
+
+- Now any of the admin accounts can log in to the Autumn virtual machine because it is a member of the domain myholiday.com
+- Open remote desktop and log in using any of the admin users
+
+<img src=https://github.com/Archie735/Active-Directory-AZURE-Part-2/assets/150314129/373d3345-15b7-4f67-aeec-bf269943941f width="50%" height="auto" alt="Willow Tree Admin login">
+
 
 
